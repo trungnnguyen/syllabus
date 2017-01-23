@@ -1,8 +1,7 @@
 # Syllabus: Introduction to High-Performance Computing
 
-***If you are a teacher or interested in the design of the course, see the [meta](https://github.com/advanced-js/syllabus/blob/gh-pages/meta.md) document.***
-
 * **Course:** [IAM751/851](http://courses.unh.edu/class/201650/56515)
+* **Website:** The class notes etc. will go on the [Course Wiki Page](https://github.com/unh-hpc/syllabus/wiki)
 * **Instructor:** Kai Germaschewski, [kai.germaschewski@unh.edu](mailto:kai.germaschewski@unh.edu)
 * **Office Hourse:** TBD
 * **Need help?**
