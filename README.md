@@ -2,7 +2,7 @@
 
 * **Course:** [IAM751/851](http://courses.unh.edu/class/201650/56515)
 * **Website:** The class notes etc. will go on the [Course Wiki Page](https://github.com/unh-hpc/syllabus/wiki)
-* **Instructor:** Kai Germaschewski, [kai.germaschewski@unh.edu](mailto:kai.germaschewski@unh.edu)
+* **Instructor:** Kai Germaschewski, [kai.germaschewski@unh.edu](mailto:kai.germaschewski@unh.edu), Morse 245E
 * **Office Hourse:** TBD
 * **Need help?**
     * [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/unh-hpc/Lobby?utm_source=share-link&utm_medium=badge&utm_campaign=pr-badge)
