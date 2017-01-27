@@ -87,7 +87,7 @@ Some recommended books:
 
 ## Grading Policy
 
-Regular homework and reading assignments assignments will be given and
+Regular homework and reading [assignments](assignments.md) will be given and
 are expected to be completed by their due date. Late submissions may
 receive partial credit, but no credit is given after sample solutions
 are posted. Participation in class discussions and in-class exercises
@@ -107,7 +107,7 @@ the class. Ideally, you will pick your topic yourself according to
 your interests, in coordination with the instructor.
 
 The final grade will be calculated as follows: Homework assignments
-30%, presentation 10%, midterm project: 30%, final project: 30%
+and class participation 30%, presentation 10%, midterm project: 30%, final project: 30%
 
 ## Disability Services
 
