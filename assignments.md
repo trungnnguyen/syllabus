@@ -19,8 +19,9 @@
  * The actual homework: Finish the in-class tasks from [Class 3](https://github.com/unh-hpc/syllabus/wiki/Class-3): split out factorial.c, and add a Makefile that can be used to compile the code that's then split amongst three source files. Figure out some way to submit your homework to me (via email). If you happen to know your way around git, that could be a good way, but otherwise you can tell me where to find your work on fishercat, or attach the files to an email, put them into Dropbox or whatever. It'd be good to get the code to compile without warnings, too!
  * Read the [paper](BarelySufficientSoftwareEngineering.pdf) on barely sufficient software engineering through 2.5. Be ready to answer a question on what you read or talk about a point you found interesting.
  
- 
- 
- 
+ 4. (due 2/9/17)
+  * Finish the in-class exercises from [Class 4](https://github.com/unh-hpc/syllabus/wiki/Class-4). Up the version number to 0.03, make a tarball and email that to me (or tell me where on fishercat to find it).
+  * Finish reading the paper on barely sufficient software engineering.
+
  
 
