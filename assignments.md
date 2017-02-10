@@ -22,6 +22,12 @@
 4. (due 2/9/17)
  * Finish the in-class exercises from [Class 4](https://github.com/unh-hpc/syllabus/wiki/Class-4). Up the version number to 0.03, make a tarball and email that to me (or tell me where on fishercat to find it).
  * Finish reading the paper on barely sufficient software engineering.
+ 
+5. (due 2/14/17)
+ * To partially make up for the snow day, I wrote up some introduction to doing more with git/github [here](https://github.com/unh-hpc/syllabus/wiki/Snow-Class-5). It's a bit lengthy, and it's a good idea to follow along trying things yourself, but not a whole lot of things you really need to do.
+ * At the end, you should have your `class-4-in-class-xyz` repo pushed back to github, so that I can check it out.
+ 
+ 
 
  
 
