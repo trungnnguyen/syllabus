@@ -27,7 +27,9 @@
  * To partially make up for the snow day, I wrote up some introduction to doing more with git/github [here](https://github.com/unh-hpc/syllabus/wiki/Snow-Class-5). It's a bit lengthy, and it's a good idea to follow along trying things yourself, but not a whole lot of things you really need to do.
  * At the end, you should have your `class-4-in-class-xyz` repo pushed back to github, so that I can check it out.
  
-6. (still not) 
+6. (due 2/16/17) 
+ * Not much of a homework, but please sign up for a [presentation](https://github.com/unh-hpc/syllabus/wiki/Student-Presentations) and pick a date, otherwise I will do that for you.
+ 
 
  
 
