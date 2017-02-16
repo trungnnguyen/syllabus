@@ -30,6 +30,7 @@
 6. (due 2/16/17) 
  * Not much of a homework, but please sign up for a [presentation](https://github.com/unh-hpc/syllabus/wiki/Student-Presentations) and pick a date, otherwise I will do that for you.
  
-
+7. (due *before class* 2/21/17)
+ * Finish the work on [Class 7](https://github.com/unh-hpc/syllabus/wiki/Class-7). Commit your changes and push them back to github.
  
 
