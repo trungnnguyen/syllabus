@@ -33,4 +33,7 @@
 7. (due *before class* 2/21/17)
  * Finish the work on [Class 7](https://github.com/unh-hpc/syllabus/wiki/Class-7). Commit your changes and push them back to github.
  
-
+8. (due before class 2/23/17)
+ * There's nothing to submit here, but I recommend looking through the changes I made in the class-7 repository (or in your class-8-assignment repo, which is the same thing), and to read through the Class 8 notes to the point where we made it today in class.
+ 
+ 
