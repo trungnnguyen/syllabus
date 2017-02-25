@@ -36,4 +36,14 @@
 8. (due before class 2/23/17)
  * There's nothing to submit here, but I recommend looking through the changes I made in the class-7 repository (or in your class-8-assignment repo, which is the same thing), and to read through the Class 8 notes to the point where we made it today in class.
  
- 
+9. (due before class 2/28/17)
+ * Finish some work from Class 8:
+   * Implement a matrix_is_equal() function and use it to complete the matrix-matrix multiplicaion test.
+   * Fortify the linear algebra routines with `assert()` statements that ensure that the functions are called with compatible vector lengths / matrix dimensions (e.g., if you add two vectors, they better have the same length, and the result vector should be the same length, too).
+   Commit your changes and push them into your repository on github. Ideally, do your work on the `master` branch and push that back. If you use another branch, please let me know so that I'll know where to look.
+
+* What did you learn from the Class 9 exercises? (Send me an email with a brief report of what you did and what the results were -- copy&pasting results is perfectly fine.) If you worked in a group, it's also fine to send me one jointly created report.
+
+* (more challenging) Investigate how you can make the `print_matrix_double_pointer()` function work -- it's a good opportunity to become more familiar with C pointers. The intention here is not to change that function, but rather to pass it the right kind of argument so that it works. Note that I would like the data itself to remain stored where it is, so it shouldn't be all copied into some other data structure. You will, however, still have to add something.
+
+
