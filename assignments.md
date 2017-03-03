@@ -23,14 +23,14 @@
  * Finish the in-class exercises from [Class 4](https://github.com/unh-hpc/syllabus/wiki/Class-4). Up the version number to 0.03, make a tarball and email that to me (or tell me where on fishercat to find it).
  * Finish reading the paper on barely sufficient software engineering.
  
-5. (due 2/14/17)
+5. (due 2/14/17)  [Notes](https://github.com/unh-hpc/syllabus/wiki/Assignment-5)
  * To partially make up for the snow day, I wrote up some introduction to doing more with git/github [here](https://github.com/unh-hpc/syllabus/wiki/Snow-Class-5). It's a bit lengthy, and it's a good idea to follow along trying things yourself, but not a whole lot of things you really need to do.
  * At the end, you should have your `class-4-in-class-xyz` repo pushed back to github, so that I can check it out.
  
 6. (due 2/16/17) 
  * Not much of a homework, but please sign up for a [presentation](https://github.com/unh-hpc/syllabus/wiki/Student-Presentations) and pick a date, otherwise I will do that for you.
  
-7. (due *before class* 2/21/17)
+7. (due *before class* 2/21/17) [Notes](https://github.com/unh-hpc/syllabus/wiki/Assignment-7)
  * Finish the work on [Class 7](https://github.com/unh-hpc/syllabus/wiki/Class-7). Commit your changes and push them back to github.
  
 8. (due before class 2/23/17)
@@ -55,3 +55,6 @@
   * **By Wednesday night:** Email me to let me know which group you're joining for the next couple of classes (groups should have 2-3 members). If you don't have a group to join, email me to tell that.
   * Nothing to hand in, but finish the in-class exercises from [Class 10](https://github.com/unh-hpc/syllabus/wiki/Class-10).
 
+11. (before class 3/7/17)
+
+  * Prepare for actually parallelizing code by implementing the two functions from [Class 11](https://github.com/unh-hpc/syllabus/wiki/Class-11), including surrounding code to actually use / test these functions. Show that the averaging function works right, for example by generating some plots and adding them either to your repo or to the associated wiki. You could actually just do this part by editing the pre-existing `README.md` to include your plot(s) etc.
