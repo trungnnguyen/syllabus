@@ -40,7 +40,7 @@
 
   * Finish some work from Class 8:
  
-    * Implement a `matrix_is_equal()` function and use it to complete the matrix-matrix multiplicaion test.
+    * Implement a `matrix_is_equal()` function and use it to complete the matrix-matrix multiplicaion test. Find and fix the bug in the matrix-matrix multiplication (see Class 8 notes).
 
     * Fortify the linear algebra routines with `assert()` statements that ensure that the functions are called with compatible vector lengths / matrix dimensions (e.g., if you add two vectors, they better have the same length, and the result vector should be the same length, too).
 
