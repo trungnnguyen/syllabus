@@ -55,6 +55,6 @@
   * **By Wednesday night:** Email me to let me know which group you're joining for the next couple of classes (groups should have 2-3 members). If you don't have a group to join, email me to tell that.
   * Nothing to hand in, but finish the in-class exercises from [Class 10](https://github.com/unh-hpc/syllabus/wiki/Class-10).
 
-11. (before class 3/7/17)
+11. (before class 3/7/17) [Notes](https://github.com/unh-hpc/syllabus/wiki/Assignment-11)
 
   * Prepare for actually parallelizing code by implementing the two functions from [Class 11](https://github.com/unh-hpc/syllabus/wiki/Class-11), including surrounding code to actually use / test these functions. Show that the averaging function works right, for example by generating some plots and adding them either to your repo or to the associated wiki. You could actually just do this part by editing the pre-existing `README.md` to include your plot(s) etc.
