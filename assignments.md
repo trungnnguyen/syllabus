@@ -36,7 +36,7 @@
 8. (due before class 2/23/17)
  * There's nothing to submit here, but I recommend looking through the changes I made in the class-7 repository (or in your class-8-assignment repo, which is the same thing), and to read through the Class 8 notes to the point where we made it today in class.
  
-9. (due before class 2/28/17)
+9. (due before class 2/28/17) [Notes](https://github.com/unh-hpc/syllabus/wiki/Assignment-9)
 
   * Finish some work from Class 8:
  
