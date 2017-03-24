@@ -62,3 +62,9 @@
 12. (before class 3/9/17)
 
   * Nothing to hand in, but finish the in-class exercises from [Class 12](https://github.com/unh-hpc/syllabus/wiki/Class-12).
+
+13. (before class 3/30/17)
+
+  * You don't have to hand anything in here, but it's always a good idea to finish the in-class exercises, in this case [Class 14/15](https://github.com/unh-hpc/syllabus/wiki/Class-14).
+  
+  * Get the actual assignment [here](https://classroom.github.com/group-assignment-invitations/893ff0ee9ee04268ddbee7d584938a10). Instructions are included in the repo.
