@@ -73,6 +73,6 @@
 
   * Here are the instructions for [Project 1](project1.pdf). It is a group assignment, so form a teams and sign up for a project repository [here](https://classroom.github.com/group-assignment-invitations/2b0d0bba21396780cc7aed9dec6937a8).
   
-  * The deadline for submission of your work is April 18th. I strongly recommend finishing a draft report a week earlier and send it to me for feedback.
+  * The deadline for submission of your work is April 18th. I strongly recommend finishing a draft report a week earlier and sending it to me for feedback.
   
   
