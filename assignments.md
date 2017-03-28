@@ -68,3 +68,11 @@
   * You don't have to hand anything in here, but it's always a good idea to finish the in-class exercises, in this case [Class 14/15](https://github.com/unh-hpc/syllabus/wiki/Class-14).
   
   * Get the actual assignment [here](https://classroom.github.com/group-assignment-invitations/893ff0ee9ee04268ddbee7d584938a10). Instructions are included in the repo.
+
+## Project 1
+
+  * Here are the instructions for [Project 1](project1.pdf). It is a group assignment, so form a teams and sign up for a project repository [here](https://classroom.github.com/group-assignment-invitations/2b0d0bba21396780cc7aed9dec6937a8).
+  
+  * The deadline for submission of your work is April 18th. I strongly recommend finishing a draft report a week earlier and send it to me for feedback.
+  
+  
