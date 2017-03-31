@@ -68,6 +68,10 @@
   * You don't have to hand anything in here, but it's always a good idea to finish the in-class exercises, in this case [Class 14/15](https://github.com/unh-hpc/syllabus/wiki/Class-14).
   
   * Get the actual assignment [here](https://classroom.github.com/group-assignment-invitations/893ff0ee9ee04268ddbee7d584938a10). Instructions are included in the repo.
+  
+14. (before class 4/4/17)
+
+  * Finish the work from [Class 17](https://github.com/unh-hpc/syllabus/wiki/Class-17). In particular, that involves changing `message_mpi_2.c` so that it broadcasts the value of `test` to all other processes, and creating an MPI parallelized version of the integration example (you can copy existing code, e.g., `linear_algebra/test_integrate.c`, as a starting point). Work in the assignment repo from Class 16, and create a pull request when you're done. You don't need to write a report.
 
 ## Project 1
 
