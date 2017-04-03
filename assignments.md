@@ -63,7 +63,7 @@
 
   * Nothing to hand in, but finish the in-class exercises from [Class 12](https://github.com/unh-hpc/syllabus/wiki/Class-12).
 
-13. (before class 3/30/17)
+13. (before class 3/30/17) [Notes now in the repo](https://github.com/unh-hpc/mandelbrot)
 
   * You don't have to hand anything in here, but it's always a good idea to finish the in-class exercises, in this case [Class 14/15](https://github.com/unh-hpc/syllabus/wiki/Class-14).
   
