@@ -1,0 +1,4 @@
+set term png
+set output "test.png"
+set pm3d map
+splot "test.asc"
