@@ -75,7 +75,11 @@
   
 15. (before class 4/11/17)
 
-  Use `MPI_Send()` / `MPI_Recv()` to correctly fill the ghost cells of the `test_derivative` example from Class 19. There are four ghost cells to fill (2 on each of the two procs), and. in the following, I made it happen for one out of those four:
+  Use `MPI_Send()` / `MPI_Recv()` to correctly fill the ghost cells of
+  the `test_derivative` example from Class 19. There are four ghost
+  cells to fill (2 on each of the two procs). In the following, I made
+  it happen for one out of those four. You can start from either (or
+  start from the assignment repo as-is).
   
   ```diff
 diff --git a/mpi/test_derivative.c b/mpi/test_derivative.c
