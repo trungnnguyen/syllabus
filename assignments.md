@@ -72,6 +72,118 @@
 14. (before class 4/4/17) A sample solution is in the [repo](https://github.com/unh-hpc/class-16/commits/hw14).
 
   * Finish the work from [Class 17](https://github.com/unh-hpc/syllabus/wiki/Class-17). In particular, that involves changing `message_mpi_2.c` so that it broadcasts the value of `test` to all other processes, and creating an MPI parallelized version of the integration example (you can copy existing code, e.g., `linear_algebra/test_integrate.c`, as a starting point). Work in the assignment repo from Class 16, and create a pull request when you're done. You don't need to write a report.
+  
+15. (before class 4/11/17)
+
+  Use `MPI_Send()` / `MPI_Recv()` to correctly fill the ghost cells of the `test_derivative` example from Class 19. There are four ghost cells to fill (2 on each of the two procs), and. in the following, I made it happen for one out of those four:
+  
+  ```diff
+diff --git a/mpi/test_derivative.c b/mpi/test_derivative.c
+index 5ff43e3..2a984d5 100644
+--- a/mpi/test_derivative.c
++++ b/mpi/test_derivative.c
+@@ -20,7 +20,7 @@ set_sine(struct fld1d *x, int N, int ib, int ie)
+ 
+   for (int i = ib; i < ie; i++) {
+     double xx = i * dx;
+-    F1(x, i) = sin(xx);
++    F1(x, i) = sin(xx+1);
+   }
+ }
+ 
+@@ -55,7 +55,16 @@ write(struct fld1d *x, int N, const char *filename)
+ static void
+ fill_ghosts(struct fld1d *x, int N)
+ {
++  int rank;
++  MPI_Comm_rank(MPI_COMM_WORLD, &rank);
++
+   /* F1(x, -1) = F1(x, N-1); */
++  if (rank == 1) {
++    MPI_Send(&F1(x, 49), 1, MPI_DOUBLE, 0, 111, MPI_COMM_WORLD);
++  } else { // rank == 0
++    MPI_Recv(&F1(x, -1), 1, MPI_DOUBLE, 1, 111, MPI_COMM_WORLD,
++	     MPI_STATUS_IGNORE);
++  }
+   /* F1(x,  N) = F1(x, 0  ); */
+ }
+ 
+@@ -102,9 +111,9 @@ main(int argc, char **argv)
+   struct fld1d *d = fld1d_create(ib  , ie  );
+ 
+   set_sine(x, N, ib, ie);
+-  write(x, N, "x");
+ 
+   calc_derivative(d, x, N);
++  write(x, N, "x");
+   write(d, N, "d");
+ 
+   fld1d_destroy(d);
+  
+  ```
+  
+  (The first change is not about the ghost points directly, but rather shifts the sine so that the ghost points issues are more easily discernible at all boundaries.)
+  
+  Actually, I have two versions of this change -- the first one (above) hardcodes the fact that we have 50 cells divided into two halves. The following version uses `ib` and `ie` instead, though it still only works for 2 procs.
+  
+  ```diff
+  diff --git a/mpi/test_derivative.c b/mpi/test_derivative.c
+index 5ff43e3..a1bf1ec 100644
+--- a/mpi/test_derivative.c
++++ b/mpi/test_derivative.c
+@@ -20,7 +20,7 @@ set_sine(struct fld1d *x, int N, int ib, int ie)
+ 
+   for (int i = ib; i < ie; i++) {
+     double xx = i * dx;
+-    F1(x, i) = sin(xx);
++    F1(x, i) = sin(xx+1);
+   }
+ }
+ 
+@@ -53,9 +53,18 @@ write(struct fld1d *x, int N, const char *filename)
+ // fills the ghost cells at either end of x
+ 
+ static void
+-fill_ghosts(struct fld1d *x, int N)
++fill_ghosts(struct fld1d *x, int ib, int ie)
+ {
++  int rank;
++  MPI_Comm_rank(MPI_COMM_WORLD, &rank);
++
+   /* F1(x, -1) = F1(x, N-1); */
++  if (rank == 1) {
++    MPI_Send(&F1(x, ie-1), 1, MPI_DOUBLE, 0, 111, MPI_COMM_WORLD);
++  } else { // rank == 0
++    MPI_Recv(&F1(x, ib-1), 1, MPI_DOUBLE, 1, 111, MPI_COMM_WORLD,
++	     MPI_STATUS_IGNORE);
++  }
+   /* F1(x,  N) = F1(x, 0  ); */
+ }
+ 
+@@ -67,7 +76,7 @@ fill_ghosts(struct fld1d *x, int N)
+ static void
+ calc_derivative(struct fld1d *d, struct fld1d *x, int N)
+ {
+-  fill_ghosts(x, N);
++  fill_ghosts(x, d->ib, d->ie);
+ 
+   double dx = 2. * M_PI / N;
+ 
+@@ -102,9 +111,9 @@ main(int argc, char **argv)
+   struct fld1d *d = fld1d_create(ib  , ie  );
+ 
+   set_sine(x, N, ib, ie);
+-  write(x, N, "x");
+ 
+   calc_derivative(d, x, N);
++  write(x, N, "x");
+   write(d, N, "d");
+ 
+   fld1d_destroy(d);
+
+  ```
+
+As usual, work in your assignment git repo (the one from class 18), and make a pull request to submit.
 
 ## Project 1
 
