@@ -189,6 +189,13 @@ index 5ff43e3..a1bf1ec 100644
 
 As usual, work in your assignment git repo (the one from class 18), and make a pull request to submit.
 
+16. (before class 4/20/17)
+
+  * Finish the in-class exercise
+    from
+    [Class 20](https://github.com/unh-hpc/syllabus/wiki/Class-20). Do
+    the work in your group's repo, use a pull request to submit your work.
+
 ## Project 1
 
   * Here are the instructions for [Project 1](project1.pdf). It is a group assignment, so form a teams and sign up for a project repository [here](https://classroom.github.com/group-assignment-invitations/2b0d0bba21396780cc7aed9dec6937a8).
