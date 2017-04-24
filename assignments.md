@@ -195,6 +195,13 @@ As usual, work in your assignment git repo (the one from class 18), and make a p
     from
     [Class 20](https://github.com/unh-hpc/syllabus/wiki/Class-20). Do
     the work in your group's repo, use a pull request to submit your work.
+    
+17. (before class 4/27/17)
+
+  * Finish the in-class exercise
+    from
+    [Class 23](https://github.com/unh-hpc/syllabus/wiki/Class-23). Do
+    the work in your group's repo, use a pull request to submit your work.
 
 ## Project 1
 
