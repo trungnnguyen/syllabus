@@ -209,4 +209,9 @@ As usual, work in your assignment git repo (the one from class 18), and make a p
   
   * The deadline for submission of your work is April 18th. I strongly recommend finishing a draft report a week earlier and sending it to me for feedback.
   
+## Project 2
+  * Here is the [sign up link](https://classroom.github.com/group-assignment-invitations/bd41f2c394fc855def760b9970133560) for your project 2 repository.
+  
+  * The final deadline for this project is the end of finals week -- as before, I recommend giving me a draft for comments before then.
+  
   
